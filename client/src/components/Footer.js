@@ -13,7 +13,6 @@ function Footer() {
                     <Link to='/Islands'>Islands</Link>
                     <Link to='/travel'>Travel</Link>
                     <Link to='/Food'>Food</Link>
-                    <Link to='/Adventure'>Adventure</Link>
                 </div>
             </div>
         </div>
@@ -44,4 +43,4 @@ function Footer() {
   )
 }
 
-export default Footer
+export default Footer;

@@ -3,8 +3,8 @@ import './App.css';
 import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './components/pages/Home';
-import Services from './components/pages/Islands';
-import Products from './components/pages/Food';
+import Food from './components/pages/Food';
+import Islands from './components/pages/Islands';
 
 function App() {
   return (
@@ -12,9 +12,9 @@ function App() {
 <Router>
    <Navbar />
    <Routes>
-    <Route path='/' exact component={Home} />
-    <Route path='/services' exact component={Services} />
-    <Route path='/products' exact component={Products} />
+    <Route path='/' element={<Home />} />
+    <Route path='/Islands' element={<Islands />} />
+    <Route path='/Food' element={<Food />} />
    </Routes>
    </Router>
    </>
