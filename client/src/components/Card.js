@@ -9,6 +9,9 @@ function Cards() {
         <div className='cards__container'>
             <div className='cards__wrapper'>
             <ul className='cards__items'>
+              {/* the card item is passed through perfectly fine but seems as though the route 
+              the src image is wrong the source page seems to recognize but just wont pass in image
+               */}
             <CardItem
                 src="images/img-4.jpg" text="explore cape verde"
                 label="explore"

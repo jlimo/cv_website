@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './components/pages/Home';
 import Food from './components/pages/Food';
 import Islands from './components/pages/Islands';
+// import Footer from './components/Footer';
 
 function App() {
   return (
